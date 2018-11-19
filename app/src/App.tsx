@@ -21,7 +21,6 @@ const instructions = Platform.select({
 interface Props {}
 export default class App extends Component<Props> {
     render() {
-        throw new Error('This is an error to test Sentry');
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!!!</Text>
