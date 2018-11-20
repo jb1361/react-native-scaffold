@@ -14,3 +14,12 @@ A scffolded project for creating react-native apps
 
 ## Optional dependencies
 * Bugsnag is currently installed to have remote error reporting.
+Uninstall:
+* react-native unlink bugsnag-react-native
+* npm uninstall bugsnag-react-native
+* remove from index.js
+```import { Client } from 'bugsnag-react-native';
+const bugsnag = new Client("3d3f6ed00f43fa9815379c72e47384c4");
+```
+
+
